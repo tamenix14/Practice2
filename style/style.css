@@ -1,0 +1,283 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul , li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    padding: 70px 0;
+    border-bottom: 1px solid #eceef4;
+}
+
+.row {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.header-top .logo{
+    font-size: 41px;
+    color: #3687c4;
+}
+
+.header-top {
+    display: flex;
+}
+
+.header-menu {
+    margin-left: auto;
+    display: flex;
+}
+
+.menu-item {
+    margin: auto 0;
+}
+
+.menu-item a i {
+    font-size: 30px;
+    color: #b9babb;
+    padding: 0 30px;
+    vertical-align: middle;
+}
+
+.menu-item:nth-child(2)::after, .menu-item:nth-child(2)::before {
+    content: "";
+    width: 1px;
+    padding: 0.1px;
+    background-color: #bcbec3;
+    vertical-align: middle;
+}
+
+.item-link i:hover {
+    color: #24ace3;
+}
+
+/* Nav */
+.nav-top ul {
+    display: flex;
+}
+
+.nav-top li {
+    padding: 25px 20px 28px 25px ;
+    border-right: 0.1px solid #eceef4;
+}
+
+.nav-top li:nth-child(6), .nav-top li:last-child {
+    border-right: none;
+}
+
+.nav-top li:last-child {
+    margin-left: auto;
+}
+
+.nav-top li a {
+    color: #6d6e71;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-input .input {
+    border: none;
+    padding: 5px 5px;
+    vertical-align: super;
+}
+
+.nav-input .input:focus {
+    outline: none;
+}
+
+.nav-input i {
+    margin-right: 17px;
+    color: #6d6e71;
+}
+
+/* Section banner */
+.section-banner {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.section-banner img {
+    width: 100%;
+}
+
+.banner-content {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+}
+
+/* Section introduction */
+.section-introduction {
+    text-align: center;
+}
+
+.section-introduction .row{
+    margin-bottom: 90px;
+}
+
+.col-6 {
+    display: flex;
+    flex : 0 0 50%;
+    max-width: 50%;
+    margin-right: 66px;
+}
+
+.col-6:last-child {
+    margin-right: 0;
+}
+
+.light-bud {
+    width: 106px;
+    height: 113px;
+    margin-right: 32px;
+}
+
+.wrapper-content {
+    text-align: justify;
+}
+
+.wrapper-content h2 {
+    font-size: 26px;
+    color: #6d6e71;
+    margin-bottom: 29px;
+}
+
+.wrapper-content p {
+    font-size: 16px;
+    color: #6d6e71;
+    width: 385px;
+}
+
+.image-tree {
+    width: 95px;
+    height: 116px;
+    margin-right: 32px;
+}
+
+.image-divine {
+    width: 70%;
+    margin-bottom: 70px;
+}
+
+/* Section introduction cont */
+.cont-title {
+    display: flex;
+    margin: 0 auto 94px auto;
+}
+
+.cont-title img {
+    width: 131px;
+    height: 115px;
+    margin-right: 32px;
+}
+
+.title-content {
+    margin: auto 0;
+}
+
+.title-content h2{
+    font-size: 44px;
+    color: #6d6e71;
+}
+
+.title-content p{
+    font-size: 17px;
+    color: #6d6e71;
+}
+
+.image-web-design {
+    width: 86px;
+    height: 86px;
+    margin-right: 32px;
+}
+
+.image-mobile-application {
+    width: 86px;
+    height: 86px;
+    margin-right: 32px;
+}
+
+.image-solution {
+    width: 86px;
+    height: 97px;
+    margin-right: 32px;
+}
+
+.image-interior {
+    width: 86px;
+    height: 69px;
+    margin-right: 32px;
+}
+
+.light-branding {
+    width: 86px;
+    height: 93px;
+    margin-right: 32px;
+}
+
+.image-service {
+    width: 86px;
+    height: 81px;
+    margin-right: 32px;
+}
+
+.section-introduction-cont .row {
+    margin-bottom: 100px;
+}
+
+.section-introduction-cont .wrapper-content h2 {
+    font-size: 24px;
+    color: #6d6e71;
+    margin-bottom: 23px;
+}
+
+/* Footer */
+.footer {
+    background-color: #2b2c2d;
+    padding-top: 85px;
+}
+
+.footer-social-media {
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.footer-social-media li {
+    padding: 21px 23px;
+    border-right: 1px solid #414344;
+}
+
+.footer-social-media li i {
+    color: #414344;
+}
+
+.copy-right {
+    font-size: 13px;
+    color: #6d6e71;
+}
+
+.footer .list-privacy {
+    display: flex;
+    margin-left: auto;
+}
+
+.list-privacy li::after:not {
+    content: ".";
+    margin: 0 10px;
+    font-size: 30px;
+}
+
+.list-privacy li::after:last-child {
+    content: "";
+}
