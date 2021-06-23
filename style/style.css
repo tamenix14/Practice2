@@ -69,7 +69,7 @@ a {
 }
 
 /* Nav */
-.nav-top ul {
+.nav-top .row {
   display: flex;
 }
 
@@ -86,7 +86,7 @@ a {
   margin-left: auto;
 }
 
-.nav-top li a {
+.nav-link {
   color: #6d6e71;
   font-size: 13px;
   font-weight: bold;
@@ -113,7 +113,7 @@ a {
   margin-bottom: 30px;
 }
 
-.section-banner img {
+.image-banner {
   width: 100%;
 }
 
@@ -130,12 +130,12 @@ a {
   z-index: -1;
 }
 
-.banner-content h2 {
+.content-title {
   font-size: 58.35px;
   color: #fff;
 }
 
-.banner-content h3 {
+.content-sub {
   font-size: 45px;
   color: #fff;
   font-weight: 100;
@@ -172,13 +172,13 @@ a {
   text-align: justify;
 }
 
-.wrapper-content h2 {
+.section-introduction .content-title {
   font-size: 26px;
   color: #6d6e71;
   margin-bottom: 29px;
 }
 
-.wrapper-content p {
+.section-introduction .content-word {
   font-size: 16px;
   color: #6d6e71;
   width: 385px;
@@ -201,7 +201,7 @@ a {
   margin: 0 auto 94px auto;
 }
 
-.cont-title img {
+.whatwedo {
   width: 131px;
   height: 115px;
   margin-right: 32px;
@@ -261,7 +261,7 @@ a {
   margin-bottom: 100px;
 }
 
-.section-introduction-cont .wrapper-content h2 {
+.wrapper-content .content-title {
   font-size: 24px;
   color: #6d6e71;
   margin-bottom: 23px;
@@ -269,9 +269,8 @@ a {
 
 /* Our Project */
 .our-project {
-  background-image: url(./images/project_background.png);
+  background: url(../images/project_background.png) no-repeat;
   background-size: 100% 100%; 
-  background-repeat: no-repeat;
 }
 
 .project-title {
@@ -279,17 +278,17 @@ a {
   display: flex;
 }
 
-.project-title img{
+.icon-chemical{
   margin-right: 37px;
 }
 
-.project-title h2 {
+.inner-title {
   font-size: 44px;
   color: #6d6e71;
   margin-top: 35px;
 }
 
-.project-title p {
+.inner-sub {
   font-size: 17px;
   color: #6d6e71;
   line-height: 25px;
@@ -384,7 +383,7 @@ a {
   margin-right: 45px;
 }
 
-.team-title h2 {
+.inner-team-title {
   margin-top: 59px;
 }
 
@@ -416,12 +415,12 @@ a {
   margin-bottom: 37px;
 }
 
-.card-avatar h2 {
+.member-name {
   font-size: 24px;
   color: #6d6e71;
 }
 
-.card-avatar p {
+.member-class {
   white-space: nowrap;
   font-size: 17px;
   color: #6d6e71;
@@ -459,7 +458,7 @@ a {
   left: 55%;
 }
 
-.map-address ul{
+.wrapper-media{
   display: flex;
   position: absolute;
   bottom: 15%;
@@ -544,7 +543,7 @@ a {
   position: relative;
 }
 
-.footer-input input {
+.input-form {
   vertical-align: super;
   background-color: transparent;
   border: none;
