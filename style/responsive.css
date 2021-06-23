@@ -1,0 +1,156 @@
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 1020px) {
+  .res-nav {
+    display: block;
+  }
+
+  .nav-top .row{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1220px) {
+  .header {
+    padding: 53px 20px 56px 20px;
+  }
+
+  .banner-content {
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .banner-content .content-title {
+    font-size: 45px;
+  }
+
+  .banner-content .content-sub {
+    font-size: 35px;
+  }
+
+  .section-introduction-continue .row:first-child {
+    width: 100%;
+  }
+
+  .section-introduction-continue .row:last-child {
+    height: unset;
+    display: block;
+    width: 100%;
+  }
+
+  .section-introduction-continue .col-six:first-child, .section-introduction-continue .col-six:last-child {
+    border-right: unset;
+    margin-right: 0;
+    padding: 0 200px;
+  }
+
+  .wrapper-technique {
+    display: block;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .wrapper-content {
+    text-align: center;
+  }
+
+  .image-web-design, .image-mobile-application, .image-solution, .image-interior, .light-branding, .image-service {
+    margin-right: 0;
+  }
+
+  .section-introduction {
+    padding: 0 200px;
+  }
+  
+  .section-introduction .col-six {
+    display: block;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 0 !important;
+  }
+
+  .section-introduction .col-six:first-child {
+    margin-bottom: 50px;
+  }
+
+  .section-introduction .row {
+    width: 100%;
+    display: block;
+  }
+
+  .section-introduction .content-word {
+    width: unset;
+  }
+
+  .light-bud, .image-tree {
+    margin-right: 0;
+  }
+
+  .image-divine {
+    width: 100%;
+  }
+
+  .footer .list-privacy {
+  margin: 0 0 33px auto;
+  }
+
+  .footer-social-media, .copy-right {
+    margin-top: 0;
+  }
+
+  .wrapper-card {
+    position: relative;
+    margin: 20px auto 0 auto;
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-right: auto !important;
+  }
+
+  .our-team .row:nth-child(2) {
+    flex-wrap: wrap;
+  }
+
+  .col-brands {
+    flex: 0 0 50%;
+    max-width: 50%;
+    margin: 0 auto 20px auto;
+  }
+
+  .brands-btns {
+    display: inline-flex;
+  }
+
+  .wrapper-logo {
+    width: unset;
+  }
+
+  .our-project .row:nth-child(3), .our-project .row:nth-child(4) {
+    flex-wrap: wrap;
+  }
+
+  .row {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 85px 30px 0 30px;
+  }
+
+  .footer .list-privacy {
+    margin: -31px 0px 33px auto;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .section-introduction .col-six:last-child {
+    margin-left: 22px;
+  }
+
+  .col-six:last-child .wrapper-technique, .col-six:last-child .wrapper-technique:nth-child(2) {
+    margin-left: 32px;
+  }
+}
